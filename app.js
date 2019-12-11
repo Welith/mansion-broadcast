@@ -9,7 +9,7 @@ var mongo = require('mongodb');
 var monk = require('monk');
 var db = monk('localhost:27017/broadcast');
 
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes/login');
 var usersRouter = require('./routes/users');
 
 var app = express();
